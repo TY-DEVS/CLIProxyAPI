@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import internal.http_session
+import internal.transport
+import internal.session
 import json
 from pathlib import Path
 from typing import NamedTuple

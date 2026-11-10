@@ -4,7 +4,6 @@ cli-proxy-api
 
 # Configuration
 config.yaml
-.env
 
 # Generated content
 bin/*
@@ -37,7 +36,6 @@ GEMINI.md
 AGENTS.override.md
 
 # Tooling metadata
-.vscode/*
 .worktrees/
 .codex/*
 .claude/*
@@ -67,3 +65,5 @@ docker-compose.override.yml
 
 # Local LLM Wiki vault
 .llm-wiki
+config.bat
+node_modules
